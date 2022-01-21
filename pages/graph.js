@@ -1,6 +1,6 @@
 export default function Graph() {
   return (
-    <div class="container">
+    <div className="container">
       <h1>Graph</h1>
       <hr/>
     </div>

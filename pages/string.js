@@ -1,6 +1,6 @@
 export default function String() {
   return (
-    <div class="container">
+    <div className="container">
       <h1>String</h1>
       <hr/>
     </div>
