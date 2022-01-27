@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import { Navbar, Container, NavDropdown, Nav, Button, Form, FormControl, Card } from 'react-bootstrap'
 import cryge from '../public/cryge.gif'
 import Image from 'next/image'
@@ -66,15 +67,15 @@ export default function Home() {
         <div className="col-lg-6">
             <h1 className="display-5 fw-bold lh-1 mb-3">This is Leetcode Tracker</h1>
             <p className="lead">
-              Leetcode an interview preperation website, there's
+              {`Leetcode an interview preperation website, there's
               thousands of questions on this site spanning many categories for hundreds of
               companies, each year <b>1000s of cs majors</b> "grind leetcode" just to get bodied
               in technical interviews anyway. My goal is to focus on the most important lc
-              questions in order to best prepare for interviews.
+              questions in order to best prepare for interviews.`}
             </p>
             <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-              <a type="button" className="btn btn-primary btn-lg px-4 me-md-2" href="/login">Login</a>
-              <a type="button" className="btn btn-outline-secondary btn-lg px-4" href="/about">About</a>
+              <Link type="button" className="btn btn-primary btn-lg px-4 me-md-2" href="/login">Login</Link>
+              <Link type="button" className="btn btn-outline-secondary btn-lg px-4" href="/about">About</Link>
             </div>
           </div>
         </div>
