@@ -31,10 +31,10 @@ export default function About() {
             icon={<SiAuth0 size={60}/>} 
             title="Authentication"
             body={
-              `In the future I plan on adding login 
-              and authentication features using auth0
-              which will allow me to keep track individual
-              streaks and goals.`
+              "In the future I plan on adding login \
+              and authentication features using auth0 \
+              which will allow me to keep track individual \
+              streaks and goals."
             }
             href="https://auth0.com/"
             link="auth0 homepage"
@@ -43,10 +43,10 @@ export default function About() {
             icon={<MdOutlineGridOn size={60}/>} 
             title="Heatmap"
             body={
-              `Leetcode similar to github has the
-              heatmap feature which allows users
-              to see streaks and how many problems
-              a day that they have completed so far.`
+              "Leetcode similar to github has the \
+              heatmap feature which allows users \
+              to see streaks and how many problems \
+              a day that they have completed so far."
             }
             href="https://apexcharts.com/javascript-chart-demos/heatmap-charts/basic/"
             link="potential chart library"
@@ -55,9 +55,9 @@ export default function About() {
             icon={<CgDatabase size={60}/>} 
             title="Database"
             body={
-              `Database connection will be added in order to manage
-              user data and track leetcode streaks and completed problems
-              etc. db either aws or sqlite`
+              "Database connection will be added in order to manage \
+              user data and track leetcode streaks and completed problems \
+              etc. db either aws or sqlite"
             }
             href="https://www.prisma.io/nextjs"
             link="prisma maybe?"
