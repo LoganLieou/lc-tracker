@@ -69,13 +69,13 @@ export default function Home() {
             <p className="lead">
               {`Leetcode an interview preperation website, there's
               thousands of questions on this site spanning many categories for hundreds of
-              companies, each year <b>1000s of cs majors</b> "grind leetcode" just to get bodied
+              companies, each year 1000s of cs majors "grind leetcode" just to get bodied
               in technical interviews anyway. My goal is to focus on the most important lc
               questions in order to best prepare for interviews.`}
             </p>
             <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-              <Link type="button" className="btn btn-primary btn-lg px-4 me-md-2" href="/login">Login</Link>
-              <Link type="button" className="btn btn-outline-secondary btn-lg px-4" href="/about">About</Link>
+              <Link href="/login"><a type="button" className="btn btn-primary btn-lg px-4 me-md-2">Login</a></Link>
+              <Link href="/about"><a type="button" className="btn btn-outline-secondary btn-lg px-4">About</a></Link>
             </div>
           </div>
         </div>
