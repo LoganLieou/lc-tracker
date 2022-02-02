@@ -36,7 +36,7 @@ export default function Login() {
             <Form.Label>Email address</Form.Label>
             <Form.Control type="email" placeholder="Enter email" onChange={onChangeU} />
             <Form.Text className="text-muted">
-              We'll always share your email with anyone else who asks.
+              We always share your email with anyone else who asks.
             </Form.Text>
           </Form.Group>
 
