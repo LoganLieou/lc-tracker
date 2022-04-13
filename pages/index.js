@@ -18,10 +18,7 @@ export function NB() {
           >
             <Nav.Link href="/login">Login</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
-            <Nav.Link 
-              href="https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU">
-              Blind 75
-            </Nav.Link>
+            <Nav.Link href="/blind">Blind 75</Nav.Link>
             <NavDropdown title="Categories" id="navbarScrollingDropdown">
               <NavDropdown.Item href="/categories/array">Array</NavDropdown.Item>
               <NavDropdown.Item href="/categories/string">String</NavDropdown.Item>
